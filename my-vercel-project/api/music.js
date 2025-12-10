@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ code: 400, msg: '缺少 name' });
   }
 
-  const api = `https://api.cenguigui.cn/api/mg_music/?type=json&msg=${name}`;
+  const api = `https://api.cenguigui.cn/api/mg_music/;
 
   try {
     const response = await fetch(api);
@@ -24,3 +24,4 @@ export default async function handler(req, res) {
     return res.status(500).json({ code: 500, msg: e.message });
   }
 }
+
