@@ -1,0 +1,11 @@
+{
+  "name": "music-api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
