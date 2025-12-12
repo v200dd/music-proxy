@@ -11,7 +11,7 @@
  */
 
 // 目标 API 的基础 URL
-const TARGET_API_BASE = 'http://music-proxy.v200dd.netlib.re/';
+const TARGET_API_BASE = 'http://music-proxy.dc1.de5.net/';
 
 // 模拟真实浏览器 User-Agent
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
